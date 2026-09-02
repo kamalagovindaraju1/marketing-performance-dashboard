@@ -102,7 +102,6 @@ marketing-performance-dashboard/
 
 ## Dashboard Preview
 
-> Add your dashboard screenshot here after uploading.
 
 ```markdown
 ![Dashboard Preview](images/dashboard-preview.png)
