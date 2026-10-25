@@ -1,19 +1,26 @@
-Dataset and Methodology
+# Dataset and Methodology
 
-Data Sources
+## Data Source
 
-This project analyzes website traffic, user engagement, acquisition channels, conversions, and revenue using Google Analytics 4 (GA4) data. Google Ads data is included only where available in the project files.
+This project analyzes Google Analytics 4 (GA4)-style event data using SQL in Google BigQuery.
 
-Dataset Details
+## Dataset Details
 
-Primary source: Google Analytics 4 (GA4)
+- **Data platform:** Google BigQuery
+- **Data structure:** Event-level data queried using a wildcard table reference (`events_*`)
+- **Dataset identifier:** To be confirmed from the actual BigQuery project
+- **Analysis scripts:** Eight SQL files covering KPIs, traffic trends, marketing channels, device analysis, landing pages, geographic analysis, conversion funnels, and revenue analysis.
 
-Additional source: Google Ads, if included in the project data
+## Key Metrics
 
-Analysis tools: SQL, Google BigQuery, and Looker Studio
+The KPI query calculates:
+- Total users
+- New users
+- Total sessions
+- Engagement rate
+- E-commerce purchases
+- Total revenue
 
-Analysis focus: Website performance, acquisition channels, engagement, conversions, and revenue
+## Methodology
 
-Methodology
-
-The project uses SQL queries to organize and analyze marketing performance data. The resulting metrics are presented in a Looker Studio dashboard to support performance monitoring and marketing analysis.
+SQL aggregation, conditional counting, safe division, and revenue calculations are used to summarize website traffic, engagement, and purchase activity.
