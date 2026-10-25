@@ -119,18 +119,16 @@ marketing-performance-dashboard/
 [**Open Interactive Marketing Dashboard in Looker Studio**](https://datastudio.google.com/reporting/a4e52bc2-223f-4736-a768-97ffa9d0c3e7/page/rY73F)
 ---
 
+
 ## Key Business Insights
 
-The dashboard enables marketers to:
+1. **Strong traffic acquisition:** The dashboard reports 103K users and 133K sessions, providing a baseline for evaluating website reach and engagement.
 
-- Monitor website performance
-- Identify high-performing acquisition channels
-- Compare user behavior across devices
-- Evaluate landing page effectiveness
-- Understand geographic distribution
-- Detect funnel drop-off points
-- Measure marketing revenue contribution
+2. **Mobile-first audience:** Mobile contributes approximately 60K users, compared with approximately 47K from desktop, highlighting the importance of optimizing the website experience for mobile users.
 
+3. **Conversion funnel drop-off:** The funnel shows `page_view` at 95.59%, while `view_item` is at 25.08% and `predicted_top_spenders` at 8.2%. This indicates substantial variation across tracked events and identifies stages for further funnel investigation.
+
+4. **Revenue and purchase performance:** The dashboard reports $363K in revenue and 2.2K e-commerce purchases. These metrics can be monitored alongside channel-level revenue to evaluate marketing performance.
 ---
 
 ## Skills Demonstrated
