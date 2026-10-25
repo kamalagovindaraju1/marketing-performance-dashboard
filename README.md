@@ -102,10 +102,7 @@ marketing-performance-dashboard/
 
 ## Dashboard Preview
 
-
-```markdown
-![Dashboard Preview](images/dashboard-preview.png)
-```
+![Dashboard Preview](images/images%3Adashboard-preview.png)
 
 ---
 
