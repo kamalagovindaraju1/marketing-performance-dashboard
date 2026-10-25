@@ -85,6 +85,16 @@ The project includes SQL scripts for:
 - GitHub
 
 ---
+## Dataset & Data Source
+
+- **Analytics platform:** Google Analytics 4 (GA4)
+- **Query environment:** Google BigQuery
+- **Data structure:** Event-level data queried using the `events_*` wildcard table pattern
+- **Analysis:** Users, sessions, engagement, purchases, revenue, acquisition channels, device performance, landing pages, and conversion funnels
+- **SQL scripts:** 8 analysis queries included in this repository
+- **Dataset identifier:** Pending verification against the actual BigQuery source
+
+**Reproducibility note:** The SQL files currently use a placeholder table reference (`project.dataset.events_*`). Replace it with the actual BigQuery table path before presenting the queries as directly executable.
 
 ## Repository Structure
 
@@ -104,6 +114,9 @@ marketing-performance-dashboard/
 
 ![Dashboard Preview](images/images%3Adashboard-preview.png)
 
+### Live Dashboard
+
+[**Open Interactive Marketing Dashboard in Looker Studio**](https://datastudio.google.com/reporting/a4e52bc2-223f-4736-a768-97ffa9d0c3e7/page/rY73F)
 ---
 
 ## Key Business Insights
