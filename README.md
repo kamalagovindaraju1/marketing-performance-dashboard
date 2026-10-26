@@ -136,16 +136,19 @@ marketing-performance-dashboard/
 [**Open Interactive Marketing Dashboard in Looker Studio**](https://datastudio.google.com/reporting/a4e52bc2-223f-4736-a768-97ffa9d0c3e7/page/rY73F)
 ---
 
-
 ## Key Business Insights
 
-1. **Strong traffic acquisition:** The dashboard reports 103K users and 133K sessions, providing a baseline for evaluating website reach and engagement.
+The following observations are based on the Looker Studio dashboard for June 21–July 18, 2026. They are separate from the results of the BigQuery SQL scripts.
 
-2. **Mobile-first audience:** Mobile contributes approximately 60K users, compared with approximately 47K from desktop, highlighting the importance of optimizing the website experience for mobile users.
+1. **Traffic and acquisition:** The dashboard reports approximately 88K users and 106K sessions. Compare these metrics with the previous equivalent period to determine whether acquisition growth is improving.
 
-3. **Conversion funnel drop-off:** The funnel shows `page_view` at 95.59%, while `view_item` is at 25.08% and `predicted_top_spenders` at 8.2%. This indicates substantial variation across tracked events and identifies stages for further funnel investigation.
+2. **Mobile experience:** The dashboard shows approximately 57K mobile users versus 32K desktop users. Prioritize an audit of the mobile landing-page and checkout experience, then validate potential improvements through testing.
 
-4. **Revenue and purchase performance:** The dashboard reports $363K in revenue and 2.2K e-commerce purchases. These metrics can be monitored alongside channel-level revenue to evaluate marketing performance.
+3. **Purchase funnel:** The existing event chart is not a sequential conversion funnel. Use the BigQuery funnel query to investigate user counts across product views, cart additions, checkout starts, and purchases before identifying the largest drop-off.
+
+4. **Revenue and purchases:** The dashboard reports approximately $189K in revenue and 1.0K purchases. Investigate revenue per purchase and channel-level revenue to identify opportunities to improve purchase value and conversion.
+
+**Interpretation note:** These are descriptive observations and proposed actions, not evidence that a particular change will cause an improvement. Validate the reporting period, metric definitions, and SQL outputs before presenting precise results in interviews.
 ---
 
 ## Skills Demonstrated
