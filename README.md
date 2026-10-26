@@ -112,7 +112,8 @@ marketing-performance-dashboard/
 
 ## Dashboard Preview
 
-![Dashboard Preview](images/images%3Adashboard-preview.png)
+![Marketing Performance Dashboard](images/images%3Adashboard-preview.png)
+
 
 ### Live Dashboard
 
